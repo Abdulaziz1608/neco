@@ -32,6 +32,31 @@
   width: 1400px;
   margin: 0 auto;
   @include d-flex(space-between);
-  padding: ;
+  padding-bottom: 50px;
   border-bottom: 1px solid #80808021;
+}
+.pays_item::after {
+  position: absolute;
+  content: "";
+  background-color: #c75e90;
+  border-radius: 50%;
+  background-image: url(/img/location-1.png);
+  background-size: cover;
+  top: 0;
+  left: -60px;
+  width: 50px;
+  height: 50px;
+}
+.pays_item {
+  position: relative;
+}
+.the_end {
+  width: 1400px;
+  margin: 0 auto;
+}
+.the_end {
+  li{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
