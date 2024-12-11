@@ -1,0 +1,30 @@
+.example_img {
+  background-image: url(/img/cat.png);
+  background-color: #fff;
+  z-index: 100;
+  background-size: cover;
+  width: 202px;
+  height: 233px;
+  border-radius: 20px;
+  position: relative;
+}
+.example_img::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: $second-color;
+  width: 70px;
+  height: 70px;
+  right: 30px;
+  bottom: -30px;
+  border-radius: 50%;
+  background-image: url(/img/house.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.example {
+  margin: 0 auto;
+  width: 1400px;
+  height: 300px;
+  @include d-flex(space-evenly);
+}

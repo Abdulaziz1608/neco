@@ -1,0 +1,46 @@
+.header__wrapper {
+  @include d-flex(space-between);
+  width: 1400px;
+  margin: 0 auto;
+}
+.header__menu {
+  @include d-flex(space-between, 20px);
+}
+.header__inner {
+  @include d-flex;
+}
+.header_checkbox {
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  place-content: center;
+  width: 50px;
+  height: 20px;
+  background-color: white;
+  border-radius: 100px;
+  margin: 20px;
+  border: none;
+
+  background-image: url(/img/brightness-high.svg), url(/img/moon-stars.svg);
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  background-position: 30px, 5px;
+}
+.header_checkbox::after {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 20px;
+  border-radius: 50px;
+  background-image: url(/img//moon-stars.svg);
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $second-color;
+  top: calc(50% - 10px);
+  transition: 0.5s;
+}
+.header_checkbox:checked:after {
+  background-image: url(/img/brightness-high.svg);
+  margin-left:22px;
+}

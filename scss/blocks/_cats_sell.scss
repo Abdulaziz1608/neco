@@ -1,0 +1,55 @@
+.sells_list {
+  margin: 0 auto;
+  width: 1200px;
+  height: 480px;
+  border: 1px 0px 0px 0px solid #161616;
+  background-color: #1c1c1c;
+  border-radius: 40px;
+  opacity: 0px;
+
+  @include d-flex;
+  .sells_item {
+    p {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}
+.sells_item {
+  @include d-flex(center, 0px, column);
+  width: 320px;
+  height: 400px;
+  border-right: 1px solid #80808021;
+  z-index: 2;
+}
+.sup_prevu {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #181818;
+}
+.sells_list--readmore {
+  box-shadow: 0px 4px 16px 0px #00000040;
+  background-color: $second-color;
+  width: 312px;
+  height: 476px;
+  border-radius: 40px;
+  border: none;
+  .prevu {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+  }
+}
+.sells_list--readmore {
+  box-shadow: 0px 4px 16px 0px #00000040;
+  background-color: $second-color;
+  width: 312px;
+  height: 476px;
+  border-radius: 40px;
+  border: none;
+}
+.mini_prevu {
+  font-size: 24px;
+  font-weight: 700;
+}
