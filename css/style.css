@@ -1,48 +1,111 @@
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-Black.woff"), format("woff"), url("../fonts/WorkSans-Black.woff2"), format("woff2");
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-ExtraBold.woff"), format("woff"), url("../fonts/WorkSans-ExtraBold.woff2"), format("woff2");
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-Bold.woff"), format("woff"), url("../fonts/WorkSans-Bold.woff2"), format("woff2");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-SemiBold.woff"), format("woff"), url("../fonts/WorkSans-SemiBold.woff2"), format("woff2");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-Medium.woff"), format("woff"), url("../fonts/WorkSans-Medium.woff2"), format("woff2");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-Regular.woff"), format("woff"), url("../fonts/WorkSans-Regular.woff2"), format("woff2");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-Light.woff"), format("woff"), url("../fonts/WorkSans-Light.woff2"), format("woff2");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-ExtraLight.woff"), format("woff"), url("../fonts/WorkSans-ExtraLight.woff2"), format("woff2");
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Monstr";
-  src: url("../fonts/WorkSans-Thin.woff"), format("woff"), url("../fonts/WorkSans-Thin.woff2"), format("woff2");
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
+  font-style: normal;
 }
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -74,4 +137,67 @@ button {
 
 button:hover {
   opacity: 0.9;
+}
+
+body {
+  background-color: #1D1D1D;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.infos__left {
+  margin-top: 107px;
+}
+
+.texts__text {
+  margin-bottom: 17px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.36em;
+  color: #696969;
+}
+
+.texts__title {
+  margin-bottom: 31px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+}
+
+.texts__info {
+  margin-bottom: 54px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 529px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.hero__button {
+  background-color: #C75E90;
+  border: none;
+  padding: 14px 48px;
+  border-radius: 220px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.box {
+  display: flex;
+  gap: 28px;
+  background-color: #161616;
+  border-radius: 30px;
+  padding: 0px 0px 0px 58px;
 }/*# sourceMappingURL=style.css.map */
