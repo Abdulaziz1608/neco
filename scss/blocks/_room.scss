@@ -1,0 +1,96 @@
+.room {
+background-color:  #1b1b1b
+}
+
+.room__wrapper {
+    @include d-flex(space-between,150px);
+}
+.room__subtitle {
+    color: #696969;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.56em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.room__title {
+   color: white;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.room__card {
+    position: relative;
+}
+.room__card__two{
+    position: relative;
+    padding-top: 40px
+   /* border-top: #80808021 1px solid;
+    padding: 1px 20px;*/
+}
+.room__card__title {
+    padding-top: 25px;
+    color: white;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.room__card__circle {
+    position: absolute;
+    width: 40px;
+    background: #C75E90;
+    height: 40px;
+    border-radius: 50%;
+    left: -7%;
+    top: 10%;
+}
+.room__card__circle::before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/chevron-up.png);
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+}
+.room__card__circl{
+    
+        position: absolute;
+    width: 40px;
+    background: #C75E90;
+    height: 40px;
+    border-radius: 50%;
+    left: -7%;
+    top: 60%;
+}
+.room__card__circl::before{
+    content: "";
+    position: absolute;
+    background-image: url(/img/shape.png);
+    width: 28px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 33%;
+    left: 15%;
+}
+.room__card__text {
+    padding: 20px 0;
+    color: white;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
