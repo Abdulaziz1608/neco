@@ -1,37 +1,52 @@
 .footer_email {
-  width: 719px;
-  height: 77px;
+  appearance: none;
+  width: 700px;
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 67px;
   background: #161616;
   border-radius: 1000px;
   border: 1px solid white;
-  position: relative;
   font-size: 20px;
 }
-.footer_email::after {
-  content: "Email";
+.sponsers {
+  @include d-flex(space-between);
+  width: 300px;
+}
+.footer__lable {
+  position: relative;
+}
+.footer__lable::after {
+  content: "EMAIL";
+  font-size: 10px;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 15px;
+  left: 30px;
   width: 20px;
   height: 20px;
-  color: white;
+  color: rgba(248, 248, 248, 0.628);
+  font-weight: 800;
   background-color: #161616;
 }
-.footer_email::before {
+.footer__lable::before {
   content: "";
   position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 20px;
-  height: 20px;
-  background-color: #161616;
+  top: calc(50% - 30px);
+  right: 4px;
+  width: 60px;
+  height: 60px;
+  background-color: #c75e90;
+  z-index: 5;
   background-image: url(/img/mail.png);
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 100px;
 }
 .footer_signup {
+  @include d-flex(space-between);
   width: 1400px;
   margin: 0 auto;
-  @include d-flex(space-between);
   padding-bottom: 50px;
   border-bottom: 1px solid #80808021;
 }
@@ -55,8 +70,28 @@
   margin: 0 auto;
 }
 .the_end {
-  li{
+  li {
     margin-bottom: 30px;
     margin-top: 30px;
   }
+}
+.footer__wrapper {
+  @include d-flex(space-around, 200px);
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #80808021;
+}
+.footer--text {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #80808021;
+}
+.footer--text::before {
+  content: "2024 © COPYRIGHT - NEKOINN A 5 STAR PURR HOTEL";
+  width: 1000px;
+  position: absolute;
+  bottom: -40px;
+  left: calc(-50% + 470px);
 }
