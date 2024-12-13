@@ -1,45 +1,46 @@
 .login {
-    background-color:  #161616;
+  background-color: #161616;
+  margin-right: 320px;
 }
 .login__info {
-    padding-top: 20px;
-    text-align: center;
+  padding-top: 20px;
+  text-align: center;
+}
+.login__wrapper {
+  @include d-flex(space-around, 0, column);
 }
 .login__subtitle {
-color:  #696969;
-font-size: 12px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0.36em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  color: #696969;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.36em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .login__title {
-    padding: 10px 0;
-color: white;
-font-size: 40px;
-font-weight: 700;
-line-height: 60px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  padding: 10px 0;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .login__text {
-    color: white;
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .login__email {
-    margin-top: 50px;
-    margin-left: 80px;
+  margin-top: 50px;
+  margin-left: 80px;
   appearance: none;
   width: 619px;
   height: 77px;
@@ -51,27 +52,19 @@ text-decoration-skip-ink: none;
   padding-bottom: -30px;
   padding-left: 30px;
 }
-.login__email--long{
-    width: 1350px;
+.login__email--long {
+  width: 1350px;
 }
-.login__lable{
-    color: white;
+.login__lable {
+  color: white;
   position: relative;
-  
 }
-.login__email::before{
-    content: "Email";
-    position: absolute;
-    color: white;
-    left: 10%;
-    top: 10%;
-}
-.login__btn{
-    padding: 20px 60px;
-    background-color:#C75E90;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    margin-top: 70px;
-    margin-left: 600px;
+.login__btn {
+  padding: 20px 60px;
+  background-color: #c75e90;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin-top: 70px;
+  margin-left: 600px;
 }

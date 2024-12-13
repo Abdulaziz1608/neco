@@ -1,4 +1,5 @@
 .sells_list {
+  @include d-flex;
   margin: 0 auto;
   width: 1200px;
   height: 480px;
@@ -8,7 +9,6 @@
   opacity: 0px;
 
   .sells_item {
-    @include d-flex;
     p {
       font-size: 14px;
       font-weight: 400;
@@ -20,7 +20,6 @@
   width: 320px;
   height: 400px;
   border-right: 1px solid #80808021;
-  z-index: 2;
 }
 .sup_prevu {
   font-size: 12px;
