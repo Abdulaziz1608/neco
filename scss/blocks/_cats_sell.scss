@@ -7,8 +7,8 @@
   border-radius: 40px;
   opacity: 0px;
 
-  @include d-flex;
   .sells_item {
+    @include d-flex;
     p {
       font-size: 14px;
       font-weight: 400;
